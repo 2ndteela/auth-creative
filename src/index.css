@@ -1,0 +1,93 @@
+
+
+body, body * {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Dosis;
+}
+
+h1, h2, h3, h4 {
+  font-family: Russo One;
+}
+
+.header {
+  padding: 16px;
+  border-bottom: 1px solid lightgray;
+  width: 100vw;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: white;
+}
+
+.header h1 {
+  font-size: 48px;
+}
+
+#icon-img {
+  flex-direction: row;
+}
+
+#icon-img img {
+  height: 50px;
+  margin-right: 16px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid rgb(0, 145, 255);
+  color: rgb(0, 145, 255);
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-size: 24px;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: rgb(0, 145, 255);
+  color: white;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 50;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 24px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.header a {
+    background-color: white;
+    border: 1px solid rgb(0, 145, 255);
+    color: rgb(0, 145, 255);
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-size: 24px;
+    transition: .3s;
+}
+
+ .header a:hover {
+  background-color: rgb(0, 145, 255);
+  color: white;
+}
+
+#home-linx {
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.right-button {
+  margin-left: 8px;
+}
